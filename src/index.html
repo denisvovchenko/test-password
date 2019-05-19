@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="preload" href="fonts/icon-slevomat-frontend.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/SFUIDisplay-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/SFUIDisplay-Bold.woff2" as="font" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <title>Test Password</title>
+</head>
+<body>
+  <main class="main">
+    <section class="password">
+      <div class="password__inner">
+        <h2 class="password__title">
+          Nové heslo
+        </h2>
+        <h3 class="password__subtitle">
+          pro uživatele <b>marcelka@gmail.com</b>
+        </h3>
+
+        <form class="password__form"
+              action="/"
+              method="POST">
+          <div class="password__input-field">
+            <input class="password__input js-password__input"
+                   type="password"
+                   name="password"
+                   placeholder="Zadejte nové heslo">
+            <button class="password__visibility-btn js-password__visibility-btn"
+                    type="button">
+              <span class="visually-hidden">
+                Ukázat heslo
+              </span>
+              <b data-icon=""></b>
+            </button>
+          </div>
+
+          <button class="password__submit-btn"
+                  type="submit">
+            Nastavit nové heslo
+          </button>
+        </form>
+
+        <p class="password__tip">
+          <b class="password__tip-icon"></b>
+          Dobré heslo je zapamatovatelné, ale zároveň není příliš krátké.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.min.js"></script>
+</body>
+</html>

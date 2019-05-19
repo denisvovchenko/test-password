@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+  src: "../fonts/SFUIDisplay-Regular.woff2" format("woff2"),
+       "../fonts/SFUIDisplay-Regular.woff" format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+
+  src: "../fonts/SFUIDisplay-Bold.woff2" format("woff2"),
+       "../fonts/SFUIDisplay-Bold.woff" format("woff");
+}
+
+@font-face {
+  font-family: icon-slevomat-frontend;
+  font-style: normal;
+  font-display: swap;
+
+  src: url("../fonts/icon-slevomat-frontend.woff2") format("woff2");
+}
